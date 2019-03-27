@@ -1,11 +1,26 @@
 {
-  "name": "PollAndThrott",
-  "version": "0.0.1",
-  "private": true,
+  "name": "croq-throttler",
+  "description": "Throttler and rate limiter client side, use Promise",
+  "version": "1.0.0",
+  "author": "Matthieu Croquelois",
+  "main": "Throttler.js",
   "scripts": {
-    "start": "node server.js"
+    "installDemo": "npm install express@\"4.x\" --no-save",
+    "demo": "node server.js"
   },
-  "dependencies": {
-    "express": "^4.16.4"
-  }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/croquelois/Throttler.git"
+  },
+  "keywords": [
+    "Throttling",
+    "Polling",
+    "Rate limiting"
+  ],
+  "license": "GNUv3",
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/croquelois/Throttler/issues"
+  },
+  "homepage": "https://github.com/croquelois/Throttler"
 }

@@ -1,19 +1,6 @@
 # Throttler
 Throttler to limit parallel request and rate
 
-## Demo
-
-the important file is [Throttler.js](Throttler.js) the rest is here for Demo purpose, you can launch the Demo with
-
-```
-npm install
-npm run start
-```
-
-and connect with your browser on port 9001, after clicking a bit on the **send** button you should see:
-
-![interface](interface.png)
-
 ## Constructor
 
 ```
@@ -27,6 +14,19 @@ Throttler(nb, rate, send)
 ## Use
 
 just call ```throttler.send()``` and it will return a promise which will be resolve when the request has been sent
+
+## Demo
+
+the important file is [Throttler.js](Throttler.js) the rest is here for Demo purpose, you can launch the Demo with
+
+```
+npm run installDemo
+npm run demo
+```
+
+and connect with your browser on port 9001, after clicking a bit on the **send** button you should see:
+
+![interface](interface.png)
 
 ## Polling
 
