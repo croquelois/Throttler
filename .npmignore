@@ -1,0 +1,9 @@
+.npm
+.npmrc
+node_modules/
+*.tgz
+
+client.js
+server.js
+interface.png
+index.html
